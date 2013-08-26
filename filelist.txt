@@ -1,0 +1,5 @@
+.:
+birghpcc.menu
+filelist.txt
+initrd.lz
+vmlinuz
