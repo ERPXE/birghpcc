@@ -1,5 +1,5 @@
 LABEL BIRGHPCC
-MENU LABEL ^birgHPCC 1.0
+MENU LABEL ^birgHPCC 1.0 (x64)
 KERNEL er/plugins/birghpcc/vmlinuz
 INITRD er/plugins/birghpcc/initrd.lz
 APPEND vga=normal boot=casper union=aufs text nouveau.modeset=0 rdblacklist=nouveau blacklist=vga16fb netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/birghpcc/ ramdisk_size=200000 nolock nouveau.noaccel=1--
